@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h2 id="box">Hello <span style="display:none">Hidden</span></h2>
+  <button onclick="changeText()">Change using textContent</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("box").textContent = "textContent applied";
+    }
+  </script>
+
+</body>
+</html>

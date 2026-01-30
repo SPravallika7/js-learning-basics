@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <img id="img" src="image.png" alt="sample" width="100">
+  <button onclick="changeAttr()">Get & Set Attribute</button>
+
+  <script>
+    function changeAttr() {
+      const img = document.getElementById("img");
+      console.log(img.getAttribute("src"));
+      img.setAttribute("alt", "Updated Image");
+    }
+  </script>
+
+</body>
+</html>

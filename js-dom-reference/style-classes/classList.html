@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .active {
+      background-color: lightgreen;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="box">ClassList Example</div>
+  <button onclick="toggleClass()">Toggle Class</button>
+
+  <script>
+    function toggleClass() {
+      document.getElementById("box").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <p class="msg">Original Text</p>
+  <button id="btn">Update</button>
+
+  <script>
+    const para = document.querySelector(".msg");
+    const btn = document.querySelector("#btn");
+
+    btn.addEventListener("click", () => {
+      para.textContent = "Updated using querySelector";
+    });
+  </script>
+
+</body>
+</html>

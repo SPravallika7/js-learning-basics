@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <div id="box">Target Element</div>
+  <button onclick="insert()">Before & After</button>
+
+  <script>
+    function insert() {
+      const box = document.getElementById("box");
+
+      const before = document.createElement("p");
+      before.innerText = "Before Element";
+      box.before(before);
+
+      const after = document.createElement("p");
+      after.innerText = "After Element";
+      box.after(after);
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <div id="container">Container</div>
+  <button onclick="add()">Append & Prepend</button>
+
+  <script>
+    function add() {
+      const para1 = document.createElement("p");
+      para1.innerText = "Appended";
+      document.body.append(para1);
+
+      const para2 = document.createElement("p");
+      para2.innerText = "Prepended";
+      document.body.prepend(para2);
+    }
+  </script>
+
+</body>
+</html>

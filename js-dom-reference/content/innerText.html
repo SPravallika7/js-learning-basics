@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h2 id="box">Hello <span style="display:none">Hidden</span></h2>
+  <button onclick="changeText()">Change using innerText</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("box").innerText = "innerText applied";
+    }
+  </script>
+
+</body>
+</html>
