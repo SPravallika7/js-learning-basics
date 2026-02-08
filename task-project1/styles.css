@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.container{
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid black;
+    display: grid;
+
+    gap: 30px;
+    padding: 20px;
+    
+}
+.boxes{
+    border: 2px solid red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
